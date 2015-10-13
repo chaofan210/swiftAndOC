@@ -17,6 +17,12 @@ class ViewController: UIViewController {
         btn.frame = CGRectMake(100, 100, 100, 100)
         btn.backgroundColor = UIColor.redColor()
         self.view.addSubview(btn)
+        
+        let btn1: UIButton = UIButton()
+        btn1.frame = CGRectMake(200, 200, 100, 100)
+        btn1.backgroundColor = UIColor.redColor()
+        self.view.addSubview(btn1)
+        
     }
 
     override func didReceiveMemoryWarning() {
