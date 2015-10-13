@@ -13,6 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let btn: UIButton = UIButton()
+        btn.frame = CGRectMake(100, 100, 100, 100)
+        btn.backgroundColor = UIColor.redColor()
+        self.view.addSubview(btn)
     }
 
     override func didReceiveMemoryWarning() {
